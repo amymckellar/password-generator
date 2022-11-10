@@ -16,13 +16,23 @@ function generatePassword() {
   var userInput = window.prompt("Please select the  length of your password");
 console.log(userInput);
 
-// inputed to promopt the next window to enter numerical numbers
+// inputed to prompt the next window to enter numerical numbers
 numberofCharacters = prompt("Choose between 8-128");
 if (numberofCharacters < 8 || numberofCharacters > 128) {
   return "please choose a valid number of characters.";
 } else if (isNaN(numberofCharacters)) {
   numberofCharacters = prompt("please enter a valid number")
 }
+
+// inputed to prompt for uppercase and lowercase
+lowercaseCharacters = prompt("Do you want lowercase letters?");
+alert("Your password will have lowercase letters!");
+
+uppercaseCharacters = prompt("Do you want uppercase letters? ");
+alert("Your password will have lowercase letters!");
+
+
+
 }
 
 

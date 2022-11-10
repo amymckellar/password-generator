@@ -5,8 +5,6 @@
 
 
 
-# Links
-Github
+# Link
 
-Website
 https://amymckellar.github.io/password-generator/

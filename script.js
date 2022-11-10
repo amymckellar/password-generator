@@ -30,10 +30,8 @@ alert("Your password will have lowercase letters!");
 
 uppercaseCharacters = prompt("Do you want uppercase letters? ");
 alert("Your password will have lowercase letters!");
-
-
-
 }
+
 
 
 
